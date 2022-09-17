@@ -69,6 +69,34 @@
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* articles */
+
+main {
+    background: #212025;
+    padding: 40px 20px;
+    margin-top: 194px;
+}
+
+article {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #fff;
+}
+
+article p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+article h1 {
+    margin: 30px auto;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
 /*sub-menu*/
 
 .navbar-left .menu ul li ul {
@@ -266,6 +294,7 @@ body {
     font-weight: 400;
     margin-top: 20px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .card p {
@@ -295,6 +324,7 @@ a:hover {
     color: white;
 }
 
-.fix {
-    top: 10%;
+main {
+    margin-top: 158px;
+    margin-bottom: 158px;
 }
